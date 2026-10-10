@@ -337,7 +337,7 @@
 
         // Pantau durasi video (berhenti otomatis pas di detik ke-10 dan memunculkan tombol unlock)
         video.addEventListener('timeupdate', function() {
-            if (video.currentTime >= 6) {
+            if (video.currentTime >= 5) {
                 video.pause();
                 unlockOverlay.classList.remove('hidden');
             }
